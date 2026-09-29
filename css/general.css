@@ -1,0 +1,30 @@
+body {
+background-color:#647737;
+color: #ffffff;
+font-size: large;
+margin: 50px;
+}
+
+nav {
+  padding: 20px;
+background-color: #ffffff;
+    }
+a {
+color: #647737;
+    }
+
+body {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+    }
+
+h1, h2, h3, h4, h5 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+        

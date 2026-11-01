@@ -1,0 +1,53 @@
+body {
+background-color:#ffffff;
+color: #647737;
+font-size: large;
+margin: 50px;
+}
+
+nav {
+padding: 20px;
+background-color: #647737;
+}
+
+a {
+color: #ffffff;
+ }
+
+body {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+   
+section-flex {
+display: flex;
+align-items: center;
+width: 90%;
+margin: 50px 50px;
+border-radius: 20px;
+padding: 30px;
+background-color:#909e70;
+color: #ffffff;
+display: flexbox;
+border: solid 3px
+}
+
+section-flex img {
+width: 25%;
+border-radius: 20px;
+}
+
+section-flex article {
+    width: 60%;
+    padding: 30px;
+}

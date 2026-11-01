@@ -6,12 +6,13 @@ margin: 50px;
 }
 
 nav {
-  padding: 20px;
+padding: 20px;
 background-color: #ffffff;
-    }
+}
+
 a {
 color: #647737;
-    }
+ }
 
 body {
   font-family: "Urbanist", sans-serif;
@@ -19,7 +20,7 @@ body {
   font-weight: <weight>;
   font-style: normal;
 
-    }
+}
 
 h1, h2, h3, h4, h5 {
   font-family: "Inter", sans-serif;

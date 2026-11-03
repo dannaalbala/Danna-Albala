@@ -35,15 +35,15 @@ h1, h2, h3, h4, h5 {
 section-flex {
 display: flex;
 align-items: center;
-width: 90%;
-margin: 50px 50px;
+width: 80%;
 border-radius: 20px;
+margin-left: 40px;
 padding: 30px;
 background-color:#909e70;
 color: #ffffff;
-display:linear;
 border: solid 3px;
 transition: all 0,5s linear;
+justify-content: center;
 }
 
 section-flex:hover {
@@ -58,4 +58,20 @@ border-radius: 20px;
 section-flex article {
     width: 60%;
     padding: 30px;
+} 
+
+.flex-serie {
+   width: 30%;
+padding: 10px;
+} 
+
+.series {
+  display: flex;
+  flex-wrap: wrap;
+justify-content:center;
+gap: 30px 30px;
+margin: 0px;
+margin-left: 0px;
+
+
 } 

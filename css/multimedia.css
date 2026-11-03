@@ -34,4 +34,19 @@ h1, h2, h3, h4, h5 {
   font-weight: <weight>;
   font-style: normal;
 }
-        
+
+section-flex {
+display: flex;
+align-items: center;
+width: 50%;
+border-radius: 20px;
+background-color:#909e70;
+color: #ffffff;
+border: solid 3px;
+transition: all 0,5s linear;
+justify-content: center;
+margin: 50px;
+padding: 10px 0px;
+}
+
+ 

@@ -22,6 +22,8 @@ body {
 
 }
 
+
+
 h1, h2, h3, h4, h5 {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -39,7 +41,7 @@ border-radius: 20px;
 padding: 30px;
 background-color:#909e70;
 color: #ffffff;
-display: flexbox;
+display:linear;
 border: solid 3px;
 transition: all 0,5s linear;
 }
@@ -56,8 +58,4 @@ border-radius: 20px;
 section-flex article {
     width: 60%;
     padding: 30px;
-}
-.flex-invertido {
-  flex-direction: row-reverse;
-}
-        
+} 

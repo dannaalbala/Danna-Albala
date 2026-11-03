@@ -39,9 +39,14 @@ padding: 30px;
 background-color:#909e70;
 color: #ffffff;
 display: flexbox;
-border: solid 3px
+border: solid 3px;
+transition: all 0,5s linear;
 }
 
+section-flex:hover {
+  scale: 1.1;
+  box-shadow: #647737 0 0 10px;
+  }
 section-flex img {
 width: 25%;
 border-radius: 20px;
@@ -50,4 +55,7 @@ border-radius: 20px;
 section-flex article {
     width: 60%;
     padding: 30px;
+}
+.flex-invertido {
+  flex-direction: row-reverse;
 }

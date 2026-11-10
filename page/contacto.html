@@ -25,36 +25,44 @@
     </nav>
 
     <main>
-
-            <form action="confirmacion.html"></form>
-    <!-- nombre, apellid, mail, telefono, la consulta -->
-    
-<label for="usuario">Ingrese su usuario
-    <input type="text" name="usuarui" id="usuario">
-</label>
-<label>
-    Ingrese su contraseña
-    <input type="text" placeholder="Minimo 6 caracteres" name="" id="contra">
-</label>
-
         <h2>¿Querés saber más sobre Fauda?</h2>
         <h3>Seguinos en nuestras redes y descubrí las novedades de la serie.</h3>
-
-        
         <nav>
             <h4>
             <a href="https://www.instagram.com/faudaofficialtv/">Instagram</a>
             <a href="https://www.netflix.com/ar/title/80113612">Netflix</a>
         </h4>
-
-        
-        </nav>
-    
-
+</main>
+        <main>
     <h3>¿Ya viste todas las temporadas?</h3>
 <p>Compartí tu opinión y seguí la conversación sobre Fauda en nuestras redes.</p>
     </main>
 
+
+    <form action="confirmacion.html">
+
+         <label for="usuario">Ingrese su usuario:</label>
+         <input type="text" name="usuario" id="usuario">
+
+         <label>
+            Ingrese su contraseña:
+            <input  type="password" placeholder="Minimo 6 caracteres" minlength="6" name="contra" id="contra">
+         </label>
+
+         <label>
+            Email:
+            <input  type="email" placeholder="no olvidemos el @" name="email" id="">
+         </label>
+
+        <label for="">
+            Ingrese su consulta
+            <input type="text" placeholder="Maximo 100 caracteres" maxlength="100" name="consulta" id="consulta">
+
+        </label>
+
+         <input type="submit" hidden value="CARGAR">
+         <button  type="submit">ENVIAR</button>
+    </form>
 
 
 </body>

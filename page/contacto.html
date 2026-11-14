@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+        <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -42,21 +43,21 @@
     <form action="confirmacion.html">
 
          <label for="usuario">Ingrese su usuario:</label>
-         <input type="text" name="usuario" id="usuario">
+         <input type="text" name="usuario" id="usuario" required>
 
          <label>
             Ingrese su contraseña:
-            <input  type="password" placeholder="Minimo 6 caracteres" minlength="6" name="contra" id="contra">
+            <input  type="password" placeholder="Minimo 6 caracteres" minlength="6" name="contra" id="contra" required>
          </label>
 
          <label>
             Email:
-            <input  type="email" placeholder="no olvidemos el @" name="email" id="">
+            <input  type="email" placeholder="no olvidemos el @" name="email" id="email" required>
          </label>
 
         <label for="">
             Ingrese su consulta
-            <input type="text" placeholder="Maximo 100 caracteres" maxlength="100" name="consulta" id="consulta">
+            <input type="text" placeholder="Maximo 100 caracteres" maxlength="100" name="consulta" id="consulta" required>
 
         </label>
 

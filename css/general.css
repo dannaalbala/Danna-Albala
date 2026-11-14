@@ -42,7 +42,7 @@ padding: 30px;
 background-color:#909e70;
 color: #ffffff;
 border: solid 3px;
-transition: all 0,5s linear;
+transition: all 0.2s linear;
 justify-content: center;
 }
 

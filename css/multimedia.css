@@ -7,6 +7,9 @@ background-color:#909e70;
 color: #ffffff;
 font-size: large;
 margin: 50px;
+background-image:url(../img/fauda\ background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 nav {
